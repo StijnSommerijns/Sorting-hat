@@ -1,0 +1,352 @@
+body {
+    background: url("../images/background.jpg");
+    background-size: 52%;
+    font-family: 'Lobster', cursive;
+    color: #911448;
+}
+#center {
+    text-align: center;
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(246, 255, 255);
+    border: rgb(95, 64, 23) 5px;
+    border-style: solid;
+    padding-bottom: 20px;
+}
+.icon {
+    font-size: 40px;
+    float: left;
+    margin-left: 5px;
+    color: #911448;
+    position: absolute;
+    z-index: +1;
+}
+.home:link {
+    text-decoration: none;
+    color: #911448;
+}
+.home:visited {
+    text-decoration: none;
+    color: #911448;
+}
+.home:hover {
+    color: rgb(255, 0, 0);
+}
+.home:active {
+    color: hotpink;
+}
+.header {
+    font-size: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px 0 5px 0;
+    position: relative;
+}
+#start .text {
+    margin: 0 130px 10px 130px;
+    font-size: 22px;
+}
+#register .text {
+    margin: 0 130px 10px 130px;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+#house-image {
+    width: 206px;
+    height: 440px;
+    margin-bottom: 30px;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    flex: auto;
+    width: 100%;
+}
+.action {
+    padding: 5px 40px;
+    border: rgb(95, 64, 23) 5px;
+    border-style: solid;
+    margin: 0 40px 0 40px;
+    background: rgb(239, 247, 216);
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+.action:link {
+    text-decoration: none;
+    color: #911448;
+}
+.action:visited {
+    text-decoration: none;
+    color: #911448;
+}
+.action:hover {
+    color: rgb(255, 0, 0);
+}
+.action:active {
+    color: hotpink;
+}
+.action-group {
+    display: flex;
+    justify-content: center;
+}
+.action-button {
+    padding: 5px 40px;
+    border: rgb(95, 64, 23) 5px;
+    border-style: solid;
+    margin-top: 10px;
+    background: rgb(239, 247, 216);
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color: #911448;
+    cursor: pointer;
+}
+.action-button:link {
+    text-decoration: none;
+    color: #911448;
+}
+.action-button:visited {
+    text-decoration: none;
+    color: #911448;
+}
+.action-button:hover {
+    color: rgb(255, 0, 0);
+}
+.action-button:active {
+    color: hotpink;
+}
+#center #register {
+    padding-bottom: 10px; 
+}
+#form {
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    align-content: center;
+    flex-direction: column;   
+    padding: 0 250px 0 250px;
+}
+.label {
+    font-size: 24px;
+    font-weight: 600;
+}
+.label-radio {
+    font-size: 20px;
+}
+.input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: gray 2px solid;
+    font-size: 16px;
+}
+.input:focus {
+    border: black 3px solid;
+}
+.input-error {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: red 2px solid;
+}
+#gender {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: gray 2px solid;
+    font-size: 16px;
+}
+#gender:focus {
+    border: black 3px solid;
+}
+#gender-error {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    border: red 2px solid;
+    font-size: 16px;
+}
+#radios {
+    margin-bottom: 25px;
+}
+.error {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+}
+.create-image {
+    margin: 20px 0 30px 0;
+}
+#action-gryf {
+    background-color: #660000;
+    color: #e09c09;
+    border: black 3px solid;
+}
+#action-gryf:link {
+    text-decoration: none;
+    color: #e09c09;
+}
+#action-gryf:visited {
+    text-decoration: none;
+    color: #e09c09;
+}
+#action-gryf:hover {
+    color: #ffc548;
+}
+#action-gryf:active {
+    color: #ffc548;
+}
+#action-rav {
+    background-color: #2a547c;
+    color: #ad6224;
+    border: black 3px solid;
+}
+#action-rav:link {
+    text-decoration: none;
+    color: #ad6224;
+}
+#action-rav:visited {
+    text-decoration: none;
+    color: #ad6224;
+}
+#action-rav:hover {
+    color: #da7b2f;
+}
+#action-rav:active {
+    color: #da7b2f;
+}
+#action-sly {
+    background-color: #2f751c;
+    color: #cccccc;
+    border: black 3px solid;
+}
+#action-sly:link {
+    text-decoration: none;
+    color: #cccccc;
+}
+#action-sly:visited {
+    text-decoration: none;
+    color: #cccccc;
+}
+#action-sly:hover {
+    color: #ebe9e9;
+}
+#action-sly:active {
+    color: #ebe9e9;
+}
+#action-huff {
+    background-color: #1f1e19;
+    color: #ff9d0b;
+    border: black 3px solid;
+}
+#action-huff:link {
+    text-decoration: none;
+    color: #ff9d0b;
+}
+#action-huff:visited {
+    text-decoration: none;
+    color: #ff9d0b;
+}
+#action-huff:hover {
+    color: #ffc811;
+}
+#action-huff:active {
+    color: #ffc811;
+}
+.profile-picture {
+    width: 300px;
+    border: black 3px solid;
+}
+#profile{
+    margin: auto;
+    width: 50%;
+}
+#profile-list {
+    margin: 0;
+}
+.profile-house-display {
+    font-size: 26px;
+    text-align: left;
+    margin: 5px 0 0 0;
+    width: 300px;
+    list-style: none;
+}
+#form-house ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+#form-house li {
+    text-align: center;
+    width: 75%;
+    margin-top: 2px;
+}
+#form-house .action-button {
+    width: 75%;
+}
+#form-house .action-button {
+    text-align: center;
+    width: 75%;
+    margin-top: 2px;
+}
+.hat-image-hidden {
+    width: 100px;
+    float: left;
+    margin-left: 25px;
+    visibility: hidden;
+}
+.hat-image-visible {
+    width: 100px;
+    float: left;
+    margin-left: 25px;
+    visibility: visible;
+}
+#hidden-id {
+    display: none;
+}
+#percentage-house {
+    margin-top: 15px;
+}
+#percentage-house ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+#percentage-house li {
+    display: flex;
+    text-align: center;
+    width: 75%;
+    margin-top: 2px;
+    flex-direction: row;
+    justify-content: center;
+}
+#percentage-house .action-button {
+    width: 55%;
+    cursor: default;
+}
+#next-person {
+    margin-top: 10px;
+}
+#end .text {
+    font-size: 28px;
+}
