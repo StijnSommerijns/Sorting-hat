@@ -11,3 +11,4 @@
     // show user is added
     
     header("Location: http://www.stijnsommerijns.com/profileVoted.php?userId=$profileId");
+    closeConnection($conn);

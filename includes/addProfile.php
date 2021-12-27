@@ -15,3 +15,4 @@
         // show user is added
         header("Location: http://www.stijnsommerijns.com/profileCreated.php");
     }
+    closeConnection($conn);
